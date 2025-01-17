@@ -841,3 +841,42 @@ img {
 .home__title:hover #dynamic-text {
   transform: scale(1.1);
 }
+
+/* ...existing code... */
+
+@media (max-width: 768px) {
+  .home__title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .home__title:hover #dynamic-text {
+    transform: scale(1.05);
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar a {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+/* ...existing code... */
