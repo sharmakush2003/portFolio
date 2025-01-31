@@ -842,6 +842,7 @@ img {
   transform: scale(1.1);
 }
 
+<<<<<<< HEAD
 /* ...existing code... */
 
 @media (max-width: 768px) {
@@ -880,3 +881,5 @@ img {
 }
 
 /* ...existing code... */
+=======
+>>>>>>> a8dd7838da01d0f3017a58d740c4b88f3c8b46e5
